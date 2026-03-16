@@ -1,69 +1,48 @@
+aid: bloomberg-intelligence
 name: Bloomberg Intelligence
-description: Bloomberg Intelligence provides research and data on companies, industries, credit, government, litigation, and ESG, integrating proprietary Bloomberg data with expert analysis.
-image: https://www.bloomberg.com/company/wp-content/uploads/sites/2/2021/08/Bloomberg_Logo.png
-url: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/
-created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
+description: >-
+  Bloomberg Intelligence provides research and data on companies, industries,
+  credit, government, litigation, and ESG, integrating proprietary Bloomberg
+  data with expert analysis.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Financial Research
-- Market Intelligence
-- Industry Analysis
-- Credit Research
-- ESG Data
-- Company Analysis
+  - Financial Research
+  - Market Intelligence
+  - Industry Analysis
+  - Credit Research
+  - ESG Data
+  - Company Analysis
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: Bloomberg Intelligence Research API
-  description: Access to Bloomberg Intelligence research reports, analysis, and insights across industries and asset classes
-  baseURL: https://api.bloomberg.com/bi/v1
-  humanURL: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: Authentication
-    url: https://www.bloomberg.com/professional/support/api-library/
-  tags:
-  - Research
-  - Reports
-  - Analysis
-- name: Bloomberg Data License API
-  description: Programmatic access to Bloomberg data including pricing, reference data, and analytics
-  baseURL: https://api.bloomberg.com/datalicense/v1
-  humanURL: https://www.bloomberg.com/professional/product/data-license/
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/documentation/
-  - type: Pricing
-    url: https://www.bloomberg.com/professional/product/data-license/
-  tags:
-  - Market Data
-  - Pricing
-  - Reference Data
-- name: Bloomberg Terminal Connect API (TAPI)
-  description: Enables direct connectivity to Bloomberg Terminal for data retrieval and order management
-  baseURL: https://api.bloomberg.com/terminal/v1
-  humanURL: https://www.bloomberg.com/professional/support/api-library/
-  properties:
-  - type: Documentation
-    url: https://www.bloomberg.com/professional/support/api-library/
-  - type: SDK
-    url: https://www.bloomberg.com/professional/support/api-library/
-  tags:
-  - Terminal
-  - Real-time Data
-  - Trading
-maintainers:
-- FN: Bloomberg L.P.
-  email: support@bloomberg.com
-  url: https://www.bloomberg.com/professional/support/
+  - aid: bloomberg-intelligence:bloomberg-intelligence-research-api
+    name: Bloomberg Intelligence Research API
+    description: >-
+      Access to Bloomberg Intelligence research reports, analysis, and insights
+      across industries and asset classes.
+    humanURL: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/
+    tags:
+      - Research
+      - Reports
+      - Analysis
+    properties:
+      - type: Documentation
+        url: https://www.bloomberg.com/professional/support/api-library/
 common:
-- type: Terms of Service
-  url: https://www.bloomberg.com/professional/support/disclaimer/
-- type: Privacy Policy
-  url: https://www.bloomberg.com/privacy/
-- type: Contact
-  url: https://www.bloomberg.com/professional/request-demo/
-- type: Support
-  url: https://www.bloomberg.com/professional/support/
-- type: Login
-  url: https://www.bloomberg.com/professional/
+  - type: Portal
+    url: https://developer.bloomberg.com/
+  - type: Terms of Service
+    url: https://www.bloomberg.com/notices/tos/
+  - type: Privacy Policy
+    url: https://www.bloomberg.com/privacy/
+  - type: Support
+    url: https://www.bloomberg.com/professional/support/
+  - type: Login
+    url: https://www.bloomberg.com/professional/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
