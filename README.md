@@ -1,74 +1,70 @@
 # Bloomberg Intelligence (bloomberg-intelligence)
-Bloomberg Intelligence provides research and data on companies, industries, credit, government, litigation, and ESG, integrating proprietary Bloomberg data with expert analysis.
+Bloomberg Intelligence provides research, data, and analytics on companies, industries, credit, government, litigation, and ESG. The Bloomberg developer platform offers BLPAPI for real-time and reference data, BQL for flexible queries, Data License for enterprise delivery, and Server API for high-performance distribution.
 
-**URL:** [Visit APIs.json URL](https://www.bloomberg.com/professional/solution/bloomberg-intelligence/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/apis.yml)
+
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - Financial Research, Market Intelligence, Industry Analysis, Credit Research, ESG Data, Company Analysis
+ - Company Analysis, Credit Research, ESG Data, Financial Data, Financial Research, Market Data, Market Intelligence
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-17
 
 ## APIs
 
-### Bloomberg Intelligence Research API
-Access to Bloomberg Intelligence research reports, analysis, and insights across industries and asset classes
+5 APIs: Bloomberg Open API (BLPAPI), Bloomberg Query Language (BQL), Bloomberg Data License API, Bloomberg Server API (SAPI), Bloomberg Intelligence Research API.
 
-**Human URL:** [https://www.bloomberg.com/professional/solution/bloomberg-intelligence/](https://www.bloomberg.com/professional/solution/bloomberg-intelligence/)
+## Features
 
+| Name | Description |
+|------|-------------|
+| Real-Time Market Data | Streaming real-time prices, quotes, and market activity. |
+| Reference Data | Static security attributes, corporate actions, and fundamentals. |
+| Historical Data | End-of-day and intraday historical pricing and analytics. |
+| Intraday Tick Data | Tick-by-tick trade and quote data for microstructure analysis. |
+| Bloomberg Query Language (BQL) | Flexible query language for custom data requests. |
+| Data License | Bulk enterprise data delivery via SFTP and SOAP. |
+| B-PIPE Data Distribution | Managed high-performance distribution with entitlement management. |
+| Intelligence Research | Analyst reports, industry analysis, and ESG insights. |
+| Multi-Language SDKs | Official SDKs for Python, Java, C++, C#/.NET, Node.js, and Perl. |
+| Enterprise Authentication | Authentication and permissioning for enterprise distribution. |
 
-#### Tags:
+## Use Cases
 
- - Research, Reports, Analysis
+| Name | Description |
+|------|-------------|
+| Trading Systems | Feed real-time market data into trading and execution systems. |
+| Risk Management | Source pricing and reference data for risk calculations. |
+| Quantitative Research | Historical data and BQL for quantitative analysis and backtesting. |
+| Portfolio Analytics | Security attributes and pricing for valuation and attribution. |
+| Compliance and Reporting | Reference data for regulatory reporting and compliance. |
+| Data Warehousing | Bulk load financial data via Data License for data warehouses. |
+| ESG Analysis | Bloomberg Intelligence ESG scores for sustainable investing. |
+| Credit Research | Credit analysis, ratings data, and fixed income research. |
 
-#### Properties
+## Solutions
 
-- [Documentation](https://www.bloomberg.com/professional/support/api-library/)
-- [Authentication](https://www.bloomberg.com/professional/support/api-library/)
+| Name | Description |
+|------|-------------|
+| Bloomberg Terminal | Professional terminal with integrated BLPAPI for desktop development. |
+| Bloomberg Enterprise | Server API and B-PIPE for enterprise-wide data distribution. |
+| Bloomberg Data License | Bulk data delivery platform for enterprise data management. |
+| Bloomberg Intelligence | Research and analysis platform with proprietary data and insights. |
 
-### Bloomberg Data License API
-Programmatic access to Bloomberg data including pricing, reference data, and analytics
+## Vocabulary
 
-**Human URL:** [https://www.bloomberg.com/professional/product/data-license/](https://www.bloomberg.com/professional/product/data-license/)
+- [Bloomberg Intelligence Vocabulary](vocabulary/bloomberg-intelligence-vocabulary.yaml) — 6 resources, 5 APIs, 3 domains, 5 personas
 
+## Rules
 
-#### Tags:
-
- - Market Data, Pricing, Reference Data
-
-#### Properties
-
-- [Documentation](https://www.bloomberg.com/professional/support/documentation/)
-- [Pricing](https://www.bloomberg.com/professional/product/data-license/)
-
-### Bloomberg Terminal Connect API (TAPI)
-Enables direct connectivity to Bloomberg Terminal for data retrieval and order management
-
-**Human URL:** [https://www.bloomberg.com/professional/support/api-library/](https://www.bloomberg.com/professional/support/api-library/)
-
-
-#### Tags:
-
- - Terminal, Real-time Data, Trading
-
-#### Properties
-
-- [Documentation](https://www.bloomberg.com/professional/support/api-library/)
-- [SDK](https://www.bloomberg.com/professional/support/api-library/)
-
-## Common Properties
-
-- [Terms of Service](https://www.bloomberg.com/professional/support/disclaimer/)
-- [Privacy Policy](https://www.bloomberg.com/privacy/)
-- [Contact](https://www.bloomberg.com/professional/request-demo/)
-- [Support](https://www.bloomberg.com/professional/support/)
-- [Login](https://www.bloomberg.com/professional/)
+- [Bloomberg Intelligence Spectral Rules](rules/bloomberg-intelligence-spectral-rules.yml) — 17 rules
 
 ## Maintainers
 
-**FN:** Bloomberg L.P.
+**FN:** Kin Lane
 
-**Email:** support@bloomberg.com
+**Email:** kin@apievangelist.com

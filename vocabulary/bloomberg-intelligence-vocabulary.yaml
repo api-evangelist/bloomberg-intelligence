@@ -1,0 +1,72 @@
+vocabulary: 1.0.0
+info:
+  provider: Bloomberg Intelligence
+  description: Vocabulary for Bloomberg API ecosystem covering BLPAPI, BQL, Data License,
+    Server API, and Intelligence Research.
+  created: '2026-04-17'
+  modified: '2026-04-17'
+operational:
+  apis:
+  - name: Bloomberg Open API (BLPAPI)
+    namespace: blpapi
+  - name: Bloomberg Query Language (BQL)
+    namespace: bql
+  - name: Bloomberg Data License
+    namespace: data-license
+  - name: Bloomberg Server API
+    namespace: sapi
+  - name: Bloomberg Intelligence Research
+    namespace: bi-research
+  resources:
+  - name: securities
+    description: Financial instruments and securities.
+    actions:
+    - get
+    - search
+  - name: market-data
+    description: Real-time and historical pricing.
+    actions:
+    - subscribe
+    - get
+  - name: reference-data
+    description: Static security attributes and fundamentals.
+    actions:
+    - get
+  - name: research-reports
+    description: Analyst research and intelligence.
+    actions:
+    - get
+    - search
+  - name: corporate-actions
+    description: Dividends, splits, and other corporate events.
+    actions:
+    - get
+  - name: esg-data
+    description: ESG scores and sustainability metrics.
+    actions:
+    - get
+capability:
+  personas:
+  - id: trader
+    name: Trader
+  - id: quant
+    name: Quantitative Analyst
+  - id: portfolio-manager
+    name: Portfolio Manager
+  - id: risk-manager
+    name: Risk Manager
+  - id: research-analyst
+    name: Research Analyst
+  domains:
+  - name: market-data
+    resources:
+    - securities
+    - market-data
+  - name: reference-data
+    resources:
+    - reference-data
+    - corporate-actions
+  - name: research
+    resources:
+    - research-reports
+    - esg-data
