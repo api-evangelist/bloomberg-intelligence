@@ -6,7 +6,7 @@ description: Bloomberg Intelligence provides research, data, and analytics on co
   Query Language) for flexible data queries, Data License for enterprise data delivery,
   and Server API / B-PIPE for high-performance data distribution.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-17'
