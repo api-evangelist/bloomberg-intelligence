@@ -104,6 +104,8 @@ apis:
     - type: Documentation
       url: https://www.bloomberg.com/professional/solution/bloomberg-intelligence/
 common:
+  - type: DomainSecurity
+    url: security/bloomberg-intelligence-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/bloomberg-intelligence
   - type: Portal
