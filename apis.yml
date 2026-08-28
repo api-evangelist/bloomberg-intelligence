@@ -5,6 +5,18 @@ description: Bloomberg Intelligence provides research, data, and analytics on co
   data, BQL (Bloomberg Query Language) for flexible data queries, Data License for enterprise data delivery, and
   Server API / B-PIPE for high-performance data distribution.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
