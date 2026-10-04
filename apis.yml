@@ -6,16 +6,19 @@ description: Bloomberg Intelligence provides research, data, and analytics on co
   for enterprise data delivery, and Server API / B-PIPE for high-performance data distribution.
 type: Index
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - bloomberg/blpapi-node
   open_source: unknown
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -73,7 +76,6 @@ apis:
   description: A powerful query language for requesting Bloomberg data with flexible filtering, aggregation,
     and calculation capabilities. Enables custom data requests beyond standard API fields.
   humanURL: https://www.bloomberg.com/professional/support/api-library/
-  baseURL: bql://bloomberg.com
   tags:
   - Analytics
   - Data Query
