@@ -1,4 +1,4 @@
-# Bloomberg Intelligence (bloomberg-intelligence)
+# Bloomberg Intelligence
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,72 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Intelligence provides research, data, and analytics on companies, industries, credit, government, litigation, and ESG. The Bloomberg developer platform offers BLPAPI for real-time and reference data, BQL for flexible queries, Data License for enterprise delivery, and Server API for high-performance distribution.
+Bloomberg Intelligence provides research, data, and analytics on companies, industries, credit, government, litigation, and ESG. The Bloomberg developer platform offers BLPAPI (Bloomberg Open API) for real-time and reference data, BQL (Bloomberg Query Language) for flexible data queries, Data License for enterprise data delivery, and Server API / B-PIPE for high-performance data distribution.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bloomberg-intelligence/refs/heads/main/apis.yml)
+**Areas:** Company Analysis · Credit Research · ESG Data · Financial Data · Financial Research · Market Data · Market Intelligence
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Bloomberg Intelligence on APIs.io
 
-## Tags:
+Everything profiled for Bloomberg Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-intelligence/](https://apis.io/providers/bloomberg-intelligence/)** — or go straight to one of the APIs or properties below.
 
- - Company Analysis, Credit Research, ESG Data, Financial Data, Financial Research, Market Data, Market Intelligence
+### APIs (5)
 
-## Timestamps
+- [Bloomberg Open API (BLPAPI)](https://apis.io/apis/bloomberg-intelligence/blpapi/) — The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python,…
+- [Bloomberg Query Language (BQL)](https://apis.io/apis/bloomberg-intelligence/bql/) — A powerful query language for requesting Bloomberg data with flexible filtering, aggregation, and calculation capabilities. Enables custom data requests…
+- [Bloomberg Data License API](https://apis.io/apis/bloomberg-intelligence/data-license/) — Enterprise data delivery platform providing bulk financial data via SFTP and SOAP API. Supports requesting reference data, pricing data, corporate actions,…
+- [Bloomberg Server API (SAPI)](https://apis.io/apis/bloomberg-intelligence/server-api/) — High-performance server-side API for distributing Bloomberg data within enterprise environments. Supports B-PIPE for managed data distribution with…
+- [Bloomberg Intelligence Research API](https://apis.io/apis/bloomberg-intelligence/research-api/) — Access to Bloomberg Intelligence research reports, analyst insights, industry analysis, and company research across equities, credit, government, and ESG.
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-17
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-5 APIs: Bloomberg Open API (BLPAPI), Bloomberg Query Language (BQL), Bloomberg Data License API, Bloomberg Server API (SAPI), Bloomberg Intelligence Research API.
+#### Vocabulary (1)
 
-## Features
+The provider's domain terms, defined.
 
-| Name | Description |
-|------|-------------|
-| Real-Time Market Data | Streaming real-time prices, quotes, and market activity. |
-| Reference Data | Static security attributes, corporate actions, and fundamentals. |
-| Historical Data | End-of-day and intraday historical pricing and analytics. |
-| Intraday Tick Data | Tick-by-tick trade and quote data for microstructure analysis. |
-| Bloomberg Query Language (BQL) | Flexible query language for custom data requests. |
-| Data License | Bulk enterprise data delivery via SFTP and SOAP. |
-| B-PIPE Data Distribution | Managed high-performance distribution with entitlement management. |
-| Intelligence Research | Analyst reports, industry analysis, and ESG insights. |
-| Multi-Language SDKs | Official SDKs for Python, Java, C++, C#/.NET, Node.js, and Perl. |
-| Enterprise Authentication | Authentication and permissioning for enterprise distribution. |
+- [Bloomberg Intelligence Vocabulary](https://apis.io/vocabularies/bloomberg-intelligence/bloomberg-intelligence-vocabulary/)
 
-## Use Cases
+#### Governance rules (1)
 
-| Name | Description |
-|------|-------------|
-| Trading Systems | Feed real-time market data into trading and execution systems. |
-| Risk Management | Source pricing and reference data for risk calculations. |
-| Quantitative Research | Historical data and BQL for quantitative analysis and backtesting. |
-| Portfolio Analytics | Security attributes and pricing for valuation and attribution. |
-| Compliance and Reporting | Reference data for regulatory reporting and compliance. |
-| Data Warehousing | Bulk load financial data via Data License for data warehouses. |
-| ESG Analysis | Bloomberg Intelligence ESG scores for sustainable investing. |
-| Credit Research | Credit analysis, ratings data, and fixed income research. |
+Spectral rulesets for the provider's contracts.
 
-## Solutions
+- [Bloomberg Intelligence API Rules](https://apis.io/rules/bloomberg-intelligence/bloomberg-intelligence-spectral-rules/)
 
-| Name | Description |
-|------|-------------|
-| Bloomberg Terminal | Professional terminal with integrated BLPAPI for desktop development. |
-| Bloomberg Enterprise | Server API and B-PIPE for enterprise-wide data distribution. |
-| Bloomberg Data License | Bulk data delivery platform for enterprise data management. |
-| Bloomberg Intelligence | Research and analysis platform with proprietary data and insights. |
+#### Security (1)
 
-## Vocabulary
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Bloomberg Intelligence Vocabulary](vocabulary/bloomberg-intelligence-vocabulary.yaml) — 6 resources, 5 APIs, 3 domains, 5 personas
+- [Bloomberg Intelligence Domain Security](https://apis.io/security/bloomberg-intelligence/bloomberg-intelligence-domain-security/)
 
-## Rules
+#### Plans and pricing (1)
 
-- [Bloomberg Intelligence Spectral Rules](rules/bloomberg-intelligence-spectral-rules.yml) — 17 rules
+Published plans, tiers and prices.
 
-## Maintainers
+- [Bloomberg Intelligence Plans Pricing](https://apis.io/plans/bloomberg-intelligence/bloomberg-intelligence-plans-pricing/)
 
-**FN:** Kin Lane
+#### Rate limits (1)
 
-**Email:** kin@apievangelist.com
+Published request limits.
+
+- [Bloomberg Intelligence Rate Limits](https://apis.io/rate-limits/bloomberg-intelligence/bloomberg-intelligence-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Intelligence Finops](https://apis.io/finops/bloomberg-intelligence/bloomberg-intelligence-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloomberg.com)
+- [Documentation](https://www.bloomberg.com/professional/support/api-library/)
+- [Getting started](https://bloomberg.github.io/blpapi-docs/)
+- [Support](https://www.bloomberg.com/professional/support/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+- [GitHub](https://github.com/bloomberg)
+
+## API Evangelist rating
+
+**Kin Score 22.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 9.8 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.5** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-intelligence/](https://apis.io/providers/bloomberg-intelligence/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-intelligence/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
